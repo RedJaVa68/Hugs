@@ -1,0 +1,98 @@
+name: Hugs
+main: RedJaVa.com.crimsonempires.Hugs
+version: 1.7.9
+description: >
+             Players can have fun with chat!
+commands:
+  hug:
+    description: access hug
+    permission: Hugs.hug
+  slap:
+    description: access slap
+    permission: Hugs.slap
+  brohoof:
+    description: access brohoof
+    permission: Hugs.brohoof
+  highfive:
+    description: access highfive
+    permission: Hugs.highfive
+  poke:
+    description: access poke
+    permission: Hugs.poke
+  punch:
+    description: access punch
+    permission: Hugs.punch
+  kiss:
+    description: access kiss
+    permission: Hugs.kiss
+  blowkiss:
+    description: access blowkiss
+    permission: Hugs.blowkiss
+  like:
+    description: access like
+    permission: Hugs.like
+  dislike:
+    description: access dislike
+    permission: Hugs.dislike
+  fliptable:
+    description: access fliptable
+    permission: Hugs.fliptable
+  fixtable:
+    description: access fixtable
+    permission: Hugs.fixtable
+  hugs:
+    description: access hugs
+    permission: Hugs.hugs
+permissions:
+  Hugs.*:
+    description: Gives access to all Hugs commands
+    children:
+      Hugs.hug: true
+      Hugs.slap: true
+      Hugs.brohoof: true
+      Hugs.highfive: true
+      Hugs.poke: true
+      Hugs.punch: true
+      Hugs.kiss: true
+      Hugs.blowkiss: true
+      Hugs.like: true
+      Hugs.dislike: true
+      Hugs.fliptable: true
+      Hugs.fixtable: true
+      Hugs.hugs: true
+  Hugs.hug:
+    description: access to hug
+    default: op
+  Hugs.slap:
+    description: access to slap
+    default: op
+  Hugs.brohoof:
+    description: access to brohoof
+    default: op
+  Hugs.poke:
+    description: access to poke
+    default: op
+  Hugs.punch:
+    description: access to punch
+    default: op
+  Hugs.kiss:
+    description: access to kiss
+    default: op
+  Hugs.blowkiss:
+    description: access to blowkiss
+    default: op
+  Hugs.like:
+    description: access to like
+    default: op
+  Hugs.dislike:
+    description: access to dislike
+    default: op
+  Hugs.fliptable:
+    description: access to fliptable
+    default: op
+  Hugs.fixtable:
+    description: access to fixtable
+    default: op
+  Hugs.hugs:
+    description: access to hugs help menu
+    default: op
